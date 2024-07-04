@@ -1,0 +1,7 @@
+FROM /Layerfile
+
+SKIP REMAINING IF LAYERFILE-main
+
+SECRET ENV SecretForLivechat
+RUN echo "secret is: $SecretForLivechat"
+
